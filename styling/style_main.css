@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
+
+*{
+  font-family: 'Patrick Hand', cursive;
+  }
+
+table.blueTable {
+    border: 2px solid black;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.blueTable td, table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.blueTable tbody td {
+    font-size: 15px;
+  }
+  table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.blueTable thead {
+      border-bottom: 3px solid #444444;
+  }
+  table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #black;
+    border-left: 2px solid black;
+    padding-left: 5px;
+  }
+  h1, h2, h3{
+    text-align: center;
+  }
+  .header_h1{
+    text-align:left;
+    margin-left:15px;
+  }
+
+
+
+header{
+  list-style: none;
+  text-decoration: non;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color:gold;
+}
+
+header > .header_actions > .liste_bottoms_top > form{
+  display: inline-block;
+}
+header > .header_actions > .liste_bottoms_top > form>button {
+  width: 250px;
+  height: 35px;
+  color: white;
+  background-color: gray;
+  border: 2px solid gold;
+  font-size: 16px;
+  border-radius: 15px;
+  transition: 400ms;
+}
+header > .header_actions > .liste_bottoms_top > form>button:hover{
+  width: 320px;
+  height: 45px;
+  color: black;
+  background-color: gray;
+  border: 4px solid gold;
+  font-size: 24px;
+  transition: 400ms;
+}
+
+
+header > .account > li> form >button {
+  margin-right: 10px;
+  width: 150px;
+  height: 35px;
+  color: white;
+  background-color: gray;
+  border: 2px solid gold;
+  font-size: 18px;
+  border-radius: 15px;
+  transition: 400ms;
+}
+header > .account >li > form >button:hover{
+  width: 180px;
+  height: 45px;
+  background-color: gray;
+  border: 2px solid gold;
+  font-size: 24px;
+  transition: 400ms;
+}
+.pere_main_actions{
+  text-align: center;
+ 
+}
+.main_actions_btn{
+  width: 200px;
+  height: 25px;
+  margin: 0px;
+  transition: 200ms;
+}
+.main_actions_btn:hover{
+  width: 220px;
+  height: 28px;
+  margin: 0px;
+  transition: 200ms;
+}
+.top_name{
+  color: white;
+  font-size: 40px;
+}
+
+
+.actions{
+  width: 200px;
+}

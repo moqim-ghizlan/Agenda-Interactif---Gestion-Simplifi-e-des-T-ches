@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
+
+*{
+    font-family: 'Patrick Hand', cursive;
+  }
+
+.login_form{
+    text-align: center;
+    margin-top: 10%;
+    padding-top:10px;
+}
+.login_form input{
+    width: 380px;
+    height: 45px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    color: #0005;
+    border: 3px solid black;
+    font-size:20px;
+    transition: 500ms;
+}
+.login_form input:hover{
+    width: 420px;
+    height: 50px;
+    border-radius: 60px;
+    border: 4px solid green;
+    transition: 500ms;
+}
+.login_form input:focus{
+    border: 4px solid red;
+}
+
+.login_form button{
+    width: 250px;
+    height: 35px;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: 500ms;
+
+}
+.login_form button:hover{
+    width: 300px;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: 500ms;
+}
+.login_form button:checked{
+    width: 250px;
+    height: 35px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 10px 0px 0px 10px;
+}
+.login_bottom{
+    font-size: 1.5rem;
+}
+.login_bottom a{
+    padding: 1px;
+    border-radius: 15px;
+    color:white;
+    background-color: black;
+    border: 2px solid black;
+    transition: 250ms;
+}
+.login_bottom a:hover{
+    padding: 5px;
+    border-radius: 15px;
+    color:blue;
+    background-color: #0001;
+    border: 2px solid black;
+    transition: 250ms;
+}
+
+
+
+.add_form{
+    text-align: center;
+    padding-top: 10%;
+}
+.add_form>spam{
+    font-size: 30px;
+    
+}
+.add_form>select{
+    height: 35px;
+    width: 70px;
+    padding-bottom: 15px;
+    
+}
+.add_form>textarea{
+    
+}
+.add_form>button{
+    
+}
+.add_form>button:hover{
+    
+}
+.h1_no_ac{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 3rem;
+}
+.form_error{
+    text-align: center;
+}
+.btn{
+    text-align:  center;
+    height: 35px;
+    width: 200px;
+    border-radius: 15px;
+    color:white;
+    background-color: black;
+    border: 2px solid black;
+    transition: 250ms;
+}
+.btn:hover{
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: 500ms;
+}
+.btn:checked{
+    width: 300px;
+    height: 45px;
+}
+.div_form_centre{
+    margin-top: 20%;
+}
+
+
+
+.div_form_centre{
+    text-align: center;
+    margin-right: 15%;
+}
+
+.top > select{
+    margin: 15px;
+    height: 25px;
+    width: 150px;
+    
+}
+.top > spam{
+    font-size: 30px;
+    
+}
+.bottom{
+
+}
+.bottom>input{
+    margin: 35px;
+    height: 45px;
+    width: 350px;
+    border-radius: 60px;
+}
+.bottom>button{
+    margin: 35px;
+    height: 45px;
+    width: 350px;
+    border-radius: 20px;
+    border-radius: 15px;
+    color:white;
+    background-color: black;
+    border: 2px solid black;
+    font-size: 20px;
+    transition: 250ms;
+}
+.bottom>button:hover{
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    color:white;
+    background-color: black;
+    border: 2px solid black;
+    font-size: 25px;
+    transition: 250ms;
+    color:gold;
+}
+
+.bottom>textarea{
+    border-radius: 20px;
+    border-radius: 15px;
+    color:black;
+    border: 2px solid black;
+    font-size: 20px;
+    transition: 250ms;
+}
+
+.bottom > input{
+    font-size: 25px;
+}
+.spam_info{
+    color:red;
+    font-size: 35px;
+    transition: 250ms;
+}
+.spam_info:hover{
+    color:aqua;
+    font-size: 40px;
+    transition: 250ms;
+    padding: 2px 5px 2px 5px;
+    background-color: rgb(0, 0, 0, 180);
+    border-radius: 60px;
+}
